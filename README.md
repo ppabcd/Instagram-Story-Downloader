@@ -11,6 +11,7 @@ Untuk menggunakan script ini pastikan kalian udah ada extensi php-gd sesuai deng
 Jalanin kode berikut
 ```bash
 chmod +x run.sh
+./run.sh
 php run.php
 ```
 
