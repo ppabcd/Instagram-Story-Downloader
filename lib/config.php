@@ -15,10 +15,10 @@ $debug = false;
 $truncatedDebug = false;
 
 // Database
-$saveToDB = false;
+$saveToDB = true;
 $db['host'] = 'localhost';
-$db['dbname'] = 'DBNAME';
-$db['user'] = 'DB_USERNAME';
+$db['dbname'] = 'DB_NAME';
+$db['user'] = 'DB_USER';
 $db['pass'] = 'DB_PASSWORD';
 
 $showStoryUsername = ["target1", "target2"]; // Target

@@ -7,3 +7,4 @@ videos
 profile
 local
 *.zip
+lib/config.php

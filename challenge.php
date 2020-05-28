@@ -2,6 +2,8 @@
 
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/lib/config.php';
+
+use InstagramAPI\Exception\ChallengeRequiredException;
 use \InstagramAPI\Instagram;
 
 $verification_method = 0; 	//0 = SMS, 1 = Email

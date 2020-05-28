@@ -7,8 +7,7 @@ require("lib/config.php");
 require("lib/functions.php");
 require('lib/cli.php');
 
-$verification_method = 1; 	//0 = SMS, 1 = Email
-
+$verification_method = 1;    //0 = SMS, 1 = Email
 
 
 $connection = [
@@ -21,20 +20,24 @@ $connection = [
 if (!$saveToDB) {
     $connection = [];
 }
-class ExtendedInstagram extends Instagram {
-    public function changeUser( $username, $password ) {
-        $this->_setUser( $username, $password );
+
+class ExtendedInstagram extends Instagram
+{
+    public function changeUser($username, $password)
+    {
+        $this->_setUser($username, $password);
     }
 }
 
-function readln( $prompt ) {
-    if ( PHP_OS === 'WINNT' ) {
+function readln($prompt)
+{
+    if (PHP_OS === 'WINNT') {
         echo "$prompt ";
 
-        return trim( (string) stream_get_line( STDIN, 6, "\n" ) );
+        return trim((string)stream_get_line(STDIN, 6, "\n"));
     }
 
-    return trim( (string) readline( "$prompt " ) );
+    return trim((string)readline("$prompt "));
 }
 
 $ig = new ExtendedInstagram($debug, $truncatedDebug, $connection);
@@ -67,6 +70,7 @@ try {
             }
         }
     endforeach;
+    echo "Berhasil";
 } catch (\Exception $e) {
     echo 'Something went wrong: ' . $e->getMessage() . "\n";
     $response = $e->getResponse();
@@ -110,9 +114,10 @@ try {
             ->addPost('_uid', $ig->account_id)
             ->addPost('_csrftoken', $ig->client->getToken())
             ->getDecodedResponse();
-
-        if ($customResponse['status'] === 'ok' && (int)$customResponse['logged_in_user']['pk'] === (int)$user_id) {
-            echo 'Finished, logged in successfully! Run this file again to validate that it works.';
+        var_dump($customResponse);
+        if ($customResponse['status'] === 'ok') {
+            echo "Finished, logged in successfully! Run this file again to validate that it works.\n";
+            echo 'Harap mengaktifkan koneksi ke database agar tidak terkena checkpoint. Coba lagi';
         } else {
             echo "Probably finished...\n";
             var_dump($customResponse);
