@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/binsoul/net-mqtt" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/binsoul/net-mqtt-client-react" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/clue/http-proxy-react" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/clue/socks-react" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/corneltek/getoptionkit" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/evenement/evenement" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/google/auth" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/google/cloud-core" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/google/cloud-vision" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/google/common-protos" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/google/gax" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/google/grpc-gcp" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/google/protobuf" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/grpc/grpc" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/lazyjsonmapper/lazyjsonmapper" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mgp25/instagram-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/dns" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/event-loop" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/promise-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/socket" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/react/stream" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/ringcentral/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/rize/uri-template" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/valga/fbns-react" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/winbox/args" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "google/cloud-vision": "^1.0"
+    },
+    "require-dev": {
+        "mgp25/instagram-php": "7.0"
+    }
+}
