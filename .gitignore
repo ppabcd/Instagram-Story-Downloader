@@ -1,6 +1,5 @@
-vendor
-vendor_backup
 *.lock
+vendor/
 data
 face
 trash
@@ -8,4 +7,3 @@ videos
 profile
 local
 *.zip
-mng2232

@@ -6,8 +6,11 @@ Usahain untuk gunain ini pertama kali di alamat IP yang paling sering dipake bia
 
 Ubah config sesuaiin sama akun. Kalau bisa connect ke db juga biar misalkan lolos checkpoint engga kena checkpoint lagi.
 
+Untuk menggunakan script ini pastikan kalian udah ada extensi php-gd sesuai dengan versi php kalian masing-masing.
+
 Jalanin kode berikut
 ```bash
+chmod +x run.sh
 php run.php
 ```
 
