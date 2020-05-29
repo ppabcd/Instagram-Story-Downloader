@@ -15,7 +15,7 @@ php run.php
 
 Jika kamu memiliki akun Google Cloud Platform, kamu bisa menggunakannya untuk mendeteksi wajah dari foto yang kamu dapatkan sebelumnya pada **run.php**.
 
-Pastikan sudah melakukan configurasi pada environment variable agar script bisa membaca akun kalian. Silahkan cek link dibawah ini untuk detailnya.
+Pastikan sudah melakukan configurasi pada environment variable agar script bisa membaca akun kalian. Silahkan cek link dibawah ini untuk detailnya.  
 [Before you begin | Cloud Vision API](https://cloud.google.com/vision/docs/before-you-begin)
 ```bash
 php checkFace.php
@@ -37,7 +37,7 @@ php run.php
 ```
 
 If you have Google Cloud Platform account, you can use it for the detection of a face from the image you get before.
-Make sure you have configured the environment variable. Please check the link below for the detail.
+Make sure you have configured the environment variable. Please check the link below for the detail.  
 [Before you begin | Cloud Vision API](https://cloud.google.com/vision/docs/before-you-begin)
 ```bash
 php checkFace.php
