@@ -4,7 +4,7 @@ Story Downloader by Reza Juliandri
 # Bahasa Indonesia
 ## Cara Menggunakannya
 
-Untuk penggunaan, usahakan menggunakan alamat IP yang sering digunakan untuk melakukan login ke instagram agar akun tidak terkena checkpoint. Pastikan kamu mengubah file **lib/config.php** serta sesuaikan dengan akun, database, dan target. Untuk target, kamu bisa memilih lebih dari 1. Jika kamu terkena checkpoint, aktifkan koneksi ke database sehingga ketika melakukan verifikasi melalui email, kode ini akan menyimpang cookies ke dalam database.
+Untuk penggunaan, usahakan menggunakan alamat IP yang sering digunakan untuk melakukan login ke instagram agar akun tidak terkena Challenge. Pastikan kamu mengubah file **lib/config.php** serta sesuaikan dengan akun, database, dan target. Untuk target, kamu bisa memilih lebih dari 1. Jika kamu terkena Challenge, aktifkan koneksi ke database sehingga ketika melakukan verifikasi melalui email, kode ini akan menyimpang cookies ke dalam database.
 
 Untuk menggunakannya, jalankan kode berikut.
 ```bash
@@ -27,7 +27,7 @@ Mohon untuk tidak menjalankan composer install ataupun composer update karena li
 # English
 
 ## How to use
-To use this repository, make sure you're using the same IP address that you use often for login to Instagram to avoid get checkpoints from Instagram. Make sure you change **lib/config.php** with your account, database, and target. When you got a checkpoint, please activate the database from the config files. So, when you do verification with email, this script will save your own cookies to your database.
+To use this repository, make sure you're using the same IP address that you use often for login to Instagram to avoid get Challenge from Instagram. Make sure you change **lib/config.php** with your account, database, and target. When you got a Challenge, please activate the database from the config files. So, when you do verification with email, this script will save your own cookies to your database.
 
 Run this code below in your terminal.
 ```bash
